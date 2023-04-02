@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,45 +18,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header-border">
-      <section class="section">
-        <div class="container">
-          <div class="box-header">
-            <nav class="box-navigation">
-              <div>
-                <a href="index.html" class="logo"
-                  >Web<span class="logo-word-primary">Studio</span></a
-                >
-              </div>
-
-              <ul class="box-menu">
-                <li>
-                  <a href="index.html" class="page">Agencja</a>
-                </li>
-                <li>
-                  <a href="portfolio.html" class="page">Portfolio</a>
-                </li>
-                <li><a href="#" class="page">Kontakt</a></li>
-              </ul>
-            </nav>
-
-            <ul class="box-contact">
-              <li>
-                <a href="mailto:info@devstudio.com" class="contact-primary"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+48111111111" class="contact-primary"
-                  >+48 111 111 111</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <div class="container">
+        <nav class="box-navigation">
+          <a href="index.html" class="logo"
+            >Web<span class="logo-word-primary">Studio</span></a
+          >
+          <ul class="box-menu">
+            <li>
+              <a href="index.html" class="page">Agencja</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="page">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="page">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="box-contact">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-primary"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+48111111111" class="contact-primary"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -80,7 +74,6 @@
               <button type="button" class="button-active">Marketing</button>
             </li>
           </ul>
-
           <ul class="card-set-projects">
             <li class="item-projects">
               <img
@@ -180,29 +173,24 @@
     </main>
 
     <footer class="bottom">
-      <section class="section">
-        <div class="container">
-          <div class="logo-bottom">
-            <a class="logo"
-              >Web<span class="logo-word-secondary">Studio</span></a
+      <div class="container">
+        <a class="logo-bottom"
+          >Web<span class="logo-word-secondary">Studio</span></a
+        >
+        <ul>
+          <li class="place">Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="contact-bottom">
+            <a href="mailto:info@example.com" class="contact-secondary"
+              >info@example.com</a
             >
-          </div>
-
-          <ul>
-            <li class="place">Warszawa, Aleje Jerozolimskie 21</li>
-            <li class="contact-bottom">
-              <a href="mailto:info@example.com" class="contact-secondary"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+48111111111" class="contact-secondary"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="contact-secondary"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

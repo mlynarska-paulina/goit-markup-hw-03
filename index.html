@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,30 +18,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header-border">
-      <section class="section">
-        <div class="container">
-          <div class="box-header">
-          <nav class="box-navigation">
-            <div>
-              <a href="index.html" class="logo"
-                >Web<span class="logo-word-primary">Studio</span></a
-              >
-            </div>
-            <ul class="box-menu">
-              <li>
-                <a href="index.html" class="page">Agencja</a>
-              </li>
-              <li>
-                <a href="portfolio.html" class="page">Portfolio</a>
-              </li>
-              <li><a href="#" class="page">Kontakt</a></li>
-            </ul>
-          </nav>
-        
-
+      <div class="container">
+        <nav class="box-navigation">
+          <a href="index.html" class="logo"
+            >Web<span class="logo-word-primary">Studio</span>
+          </a>
+          <ul class="box-menu">
+            <li>
+              <a href="index.html" class="page">Agencja</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="page">Portfolio</a>
+            </li>
+            <li><a href="#" class="page">Kontakt</a></li>
+          </ul>
           <ul class="box-contact">
             <li>
               <a href="mailto:info@devstudio.com" class="contact-primary"
@@ -55,23 +48,21 @@
               >
             </li>
           </ul>
-        </div>
-        </div>
-      </section>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <section class="offer-background">
+        <div class="container">
+          <h1 class="offer">Efektywne rozwiązania dla waszego biznesu</h1>
+          <div class="box-button">
+            <button type="button" class="offer-button">Zamów usługe</button>
+          </div>
+        </div>
+      </section>
       <section class="section">
-        <section class="offer-background">
-          <div class="container">
-            <h1 class="offer">Efektywne rozwiązania dla waszego biznesu</h1>
-            <div class="box-button">
-              <button type="button" class="offer-button">Zamów usługe</button>
-            </div>
-    
-          </section>
-
-      <div class="container">
+        <div class="container">
           <ul class="card-set-description">
             <li class="item">
               <h3 class="list-primary">Lorem ipsum</h3>
@@ -103,13 +94,12 @@
             </li>
           </ul>
         </div>
-       
-      
-
+      </section>
+      <section class="section-secondary">
         <div class="container">
           <h2 class="topic">Czym się zajmujemy</h2>
           <ul class="card-set-tasks">
-            <li clas="item-tasks">
+            <li class="item-tasks">
               <img
                 src="images/items1.jpg"
                 alt="komputer"
@@ -135,78 +125,75 @@
             </li>
           </ul>
         </div>
-      
-        <section class="people">
+      </section>
+      <section class="people">
         <div class="container">
-            <h2 class="topic">Nasz zespół</h2>
-            <ul class="card-set-people">
-              <li class="card">
-                <img
-                  src="images/person1.jpg"
-                  alt="mezczyzna"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="name">John Doe</h3>
-                <p class="function">Product designer</p>
-              </li>
-              <li class="card">
-                <img
-                  src="images/person2.jpg"
-                  alt="kobieta"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="name">John Doe</h3>
-                <p class="function">Frontend Developer</p>
-              </li>
-              <li class="card">
-                <img
-                  src="images/person3.jpg"
-                  alt="mezczyzna2"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="name">John Doe</h3>
-                <p class="function">Marketing</p>
-              </li>
-              <li class="card">
-                <img
-                  src="images/person4.jpg"
-                  alt="mezczyzna3"
-                  width="270"
-                  height="260"
-                />
-                <h3 class="name">John Doe</h3>
-                <p class="function">UI Designer</p>
-              </li>
-            </ul>
-          </div>
-            </section>
+          <h2 class="topic">Nasz zespół</h2>
+          <ul class="card-set-people">
+            <li class="card">
+              <img
+                src="images/person1.jpg"
+                alt="mezczyzna"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">John Doe</h3>
+              <p class="function">Product designer</p>
+            </li>
+            <li class="card">
+              <img
+                src="images/person2.jpg"
+                alt="kobieta"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">John Doe</h3>
+              <p class="function">Frontend Developer</p>
+            </li>
+            <li class="card">
+              <img
+                src="images/person3.jpg"
+                alt="mezczyzna2"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">John Doe</h3>
+              <p class="function">Marketing</p>
+            </li>
+            <li class="card">
+              <img
+                src="images/person4.jpg"
+                alt="mezczyzna3"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">John Doe</h3>
+              <p class="function">UI Designer</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
 
     <footer class="bottom">
-      <section class="section">
-        <div class="container">
-          <div class="logo-bottom">
-          <a class="logo">Web<span class="logo-word-secondary">Studio</span></a></div>
-          <ul>
-            <li class="place">Warszawa, Aleje Jerozolimskie 21</li>
-            <li class="contact-bottom">
-              <a href="mailto:info@example.com" class="contact-secondary"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+48111111111" class="contact-secondary"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="container">
+        <a class="logo-bottom"
+          >Web<span class="logo-word-secondary">Studio</span></a
+        >
+        <ul>
+          <li class="place">Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="contact-bottom">
+            <a href="mailto:info@example.com" class="contact-secondary"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="contact-secondary"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
