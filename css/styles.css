@@ -48,6 +48,19 @@ body {
 .box-navigation {
   display: flex;
   padding: 24px 0 25px 0;
+  column-gap: 46px;
+}
+.box-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 270px;
 }
 .logo {
   font-family: var(--font-secondary);
@@ -55,7 +68,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: var(--logo-color);
-  padding-right: 93px;
+  padding-right: 50px;
 }
 .logo-word-primary {
   color: var(--logo-color-dark);
@@ -63,19 +76,7 @@ body {
 .logo-word-secondary {
   color: var(--color-light);
 }
-.box-menu {
-  display: flex;
-  column-gap: row-gap;
-  gap: 46px;
-  align-items: center;
-  padding-right: 170px;
-}
-.box-contact {
-  display: flex;
-  column-gap: row-gap;
-  gap: 50px;
-  align-items: center;
-}
+
 .page:hover,
 .page:focus,
 .contact-primary:hover,
@@ -101,7 +102,6 @@ body {
 }
 .offer-background {
   background-color: var(--background-color-dark);
-  padding: 94px 0;
 }
 .offer {
   font-weight: 900;
@@ -111,10 +111,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-light);
-  padding: 106px 200px 30px 200px;
+  padding: 200px 200px 30px 200px;
 }
 .box-button {
-  padding-bottom: 106px;
+  padding-bottom: 210px;
   display: flex;
   justify-content: center;
 }
@@ -152,6 +152,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 p {
   color: var(--color-light-secondary);
@@ -169,7 +170,7 @@ p {
   gap: 30px;
 }
 .item-tasks {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .people {
   background: var(--background-color-light);
@@ -192,7 +193,7 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .name,
 .function {
@@ -211,7 +212,7 @@ p {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
 }
 .button-active {
   padding: 6px 22px 6px 22px;
@@ -224,7 +225,7 @@ p {
   gap: 30px;
 }
 .item-projects {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
 }
 .name-of-the-project {
@@ -249,6 +250,9 @@ p {
   font-size: 26px;
   line-height: 1.2;
   color: var(--logo-color);
+}
+address {
+  font-style: normal;
 }
 .place {
   font-size: 14px;
